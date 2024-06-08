@@ -36,7 +36,7 @@ const HomeSection = () => {
                 <Link href={'https://www.linkedin.com/in/misbahul-muttaqin-b87b78255/'} className="lg:text-2xl md:text-xl sm:text-md  p-2 rounded-full bg-slate-300 dark:bg-slate-600 hover:bg-blue-600 hover:text-slate-50 dark:hover:bg-blue-600 dark:hover:text-slate-50 transition-all duration-100"><FaLinkedin /></Link>
                 <Link href={'https://www.instagram.com/misbahulmu756/'} className="lg:text-2xl md:text-xl sm:text-md  p-2 rounded-full bg-slate-300 dark:bg-slate-600 hover:bg-red-600 hover:text-slate-50 dark:hover:bg-red-600 dark:hover:text-slate-50 transition-all duration-100"><FaInstagram /></Link>
                 <Link href={'https://www.tiktok.com/@misbahul.muttaqin'} className="lg:text-2xl md:text-xl sm:text-md  p-2 rounded-full bg-slate-300 dark:bg-slate-600 hover:bg-black hover:text-slate-50 dark:hover:bg-black datk:hover:text-slate-50 transition-all duration-100"><FaTiktok /></Link>
-                <Link href={''} className="lg:text-2xl md:text-xl sm:text-md  p-2 rounded-full bg-slate-300 dark:bg-slate-600 hover:bg-blue-600 hover:text-slate-50 dark:hover:bg-blue-600 dark:hover:text-slate-50 transition-all duration-100"><FaFacebook /></Link>
+                <Link href={'https://www.facebook.com/profile.php?id=61560494439543'} className="lg:text-2xl md:text-xl sm:text-md  p-2 rounded-full bg-slate-300 dark:bg-slate-600 hover:bg-blue-600 hover:text-slate-50 dark:hover:bg-blue-600 dark:hover:text-slate-50 transition-all duration-100"><FaFacebook /></Link>
             </div>
         </div>
     </section>
