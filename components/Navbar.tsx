@@ -13,8 +13,13 @@ const Navbar = () => {
   const [currentSection, setCurrentSection]=useState('')
   const [showNavbar, setShowNavbar]=useState(false)
   const [style,setStyle]=useState('')
-  const sectionAll=document.querySelectorAll('section')
+  const [sectionAll, setSectionAll] = useState<NodeListOf<HTMLElement> | undefined>(undefined);
+  useEffect(()=>{
+    setSectionAll(document.querySelectorAll('section'))
+  },[])
+  
   useEffect(() => {
+    if(!sectionAll) return;
     const handleScroll = () => {
       const scrolled = window.scrollY;
       setShowNavbar(scrolled >= 50);
