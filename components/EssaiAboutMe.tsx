@@ -9,7 +9,7 @@ const EssaiAboutMe = () => {
 
         As I got more comfortable with HTML, I moved on to JavaScript and the MERN stack (MongoDB, Express.js, React, Node.js). JavaScript allowed me to create interactive elements on websites, and the MERN stack taught me how to build full-stack web applications from scratch.
 
-        This gap year has been a valuable experience where I've not only gained technical skills but also learned how to be disciplined and solve problems independently. I'm now looking forward to applying what I've learned as I continue my journey into web development and beyond.
+        This gap year has been a valuable experience where I&apos;ve not only gained technical skills but also learned how to be disciplined and solve problems independently. I&apos;m now looking forward to applying what I&apos;ve learned as I continue my journey into web development and beyond.
       </p>
     </div>
   )
