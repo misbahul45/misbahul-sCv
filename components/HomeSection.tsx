@@ -25,7 +25,7 @@ const HomeSection = () => {
         <div className="flex flex-col lg:px-24 md:px-20 sm:px-12 px-8">
             <h1 className="lg:text-4xl md:text-2xl sm:text-xl text-[15px] text-center text-blue-600 dark:text-slate-600 mb-2"><b>Assalamualaikum Warahmatullahi Wabarakatuh!</b></h1>
             <p className={`lg:text-3xl md:text-xl sm:text-lg text-[12px] tracking-wide text-center ${ubuntu.className}`}>
-                Hello, I&apos;m<span className="font-semibold text-blue-700 dark:text-slate-600">Misbahul Muttaqin</span>, I&apos;m a begginer web developer from <span className="font-semibold text-blue-700 dark:text-slate-600">Gresik</span>, <span className="font-semibold text-blue-700 dark:text-slate-600">Jawa Timur</span>, I enjoy building web applications with <span className="font-semibold text-blue-700 dark:text-slate-600">React, Next.js and Tailwind</span>.
+                Hello, I&apos;m<span className="font-semibold text-blue-700 dark:text-slate-600">Misbahul Muttaqin</span>, I&apos;m a beginner web developer from <span className="font-semibold text-blue-700 dark:text-slate-600">Gresik</span>, <span className="font-semibold text-blue-700 dark:text-slate-600">Jawa Timur</span>, I enjoy building web applications with <span className="font-semibold text-blue-700 dark:text-slate-600">React, Next.js and Tailwind</span>.
             </p>
         </div>
         <br />
