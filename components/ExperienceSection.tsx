@@ -4,6 +4,8 @@ import { Ubuntu } from 'next/font/google'
 import Image from 'next/image'
 import React from 'react'
 import imageUTBK from "@/public/images/hasil  utbk.png"
+import imageUTBK2024 from "@/public/images/utbk-2024.png"
+
 import osnImage from "@/public/images/osn.jpg"
 import { motion } from 'framer-motion'
 
@@ -112,6 +114,45 @@ const ExperienceSection = () => {
             }}
             >
               <Image alt="image utbk" src={osnImage} />
+            </motion.div>
+          </div>
+          <div>
+            <motion.h1
+            initial={{
+              x:-100,
+              opacity:0
+            }}
+            whileInView={{
+              x:0,
+              opacity:1
+            }}
+            transition={{
+              duration:1,
+              type:"spring"
+            }}
+            viewport={{
+              once:true
+            }}
+            className="md:text-2xl sm:text-xl text-lg font-semibold mb-2">UTBK 2024</motion.h1>
+            <motion.div
+            initial={{
+              scale:0,
+              y:-100
+            }}
+            whileInView={{
+              scale:1,
+              y:0
+            }}
+            transition={{
+              duration:1,
+              type:"spring"
+            }}
+            viewport={{
+              once:true
+            }}
+            className="relative"
+            >
+              <Image alt="image utbk" src={imageUTBK2024} />
             </motion.div>
           </div>
         </div>

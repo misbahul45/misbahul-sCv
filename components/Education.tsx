@@ -57,8 +57,12 @@ const Education = () => {
                 <div className="absolute top-[50%] left-1/2 -translate-x-1/2 p-2 rounded-full border-2 border-blue-600 dark:border-slate-600">
                     <IoSchool size={25}></IoSchool>
                 </div>
-                <span className="w-24 absolute top-[77%] -right-7">2024</span>
-                <div className="absolute top-[75%] left-1/2 -translate-x-1/2 p-2 rounded-full border-2 border-blue-600 dark:border-slate-600">
+                <span className="w-24 absolute top-[67%] -right-7">2023-2024</span>
+                <div className="absolute top-[65%] left-1/2 -translate-x-1/2 p-2 rounded-full border-2 border-blue-600 dark:border-slate-600">
+                    <IoSchool size={25}></IoSchool>
+                </div>
+                <span className="w-24 absolute top-[87%] left-7">2024-now</span>
+                <div className="absolute top-[85%] left-1/2 -translate-x-1/2 p-2 rounded-full border-2 border-blue-600 dark:border-slate-600">
                     <IoSchool size={25}></IoSchool>
                 </div>
             </div>
@@ -128,6 +132,23 @@ const Education = () => {
                 <h1 className="text-center tracking-tighter lg:text-2xl md:text-xl sm:text-lg text-sm mb-1">Student Gapyear</h1>
                 <p className="tracking-tighter lg:text-lg sm:text-[14px] text-[10px] text-center">
                     Selama gapyear 1 Tahun saya mendidikasikan diri belajar Teknologi Informasi dibidang Web.   
+                </p>
+            </motion.div>
+            <motion.div
+            variants={variantsAnimation}
+            initial="initialLeft"
+            whileInView="animateLeft"
+            viewport={{
+                once:true
+            }}
+            transition={{
+                duration:1,
+                type:"spring"
+            }}
+            className="block mr-auto w-full max-w-[48%] px-6 py-2 h-36 rounded-lg shadow-md shadow-blue-700 dark:shadow-slate-500 bg-slate-300 dark:bg-slate-800">
+                <h1 className="text-center tracking-tighter lg:text-2xl md:text-xl sm:text-lg text-sm mb-1">Airlangga student</h1>
+                <p className="tracking-tighter lg:text-lg sm:text-[14px] text-[10px] text-center">
+                    Saat ini saya sedang menempuh pendidikan di Universitas Airlangga.
                 </p>
             </motion.div>
         </div>

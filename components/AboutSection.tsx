@@ -10,7 +10,7 @@ const roboto=Roboto({
 })
 const AboutSection = () => {
   return (
-    <section id="about" className={`relative lg:min-h-screen sm:pt-12 py-4 lg:px-24 md:px-20 sm:px-12 px-8 ${roboto.className}`}>
+    <section id="about" className={`relative lg:py-20 sm:py-112 py-4 lg:px-24 md:px-20 sm:px-12 px-8 ${roboto.className}`}>
       <EssaiAboutMe />
     </section>
   )
